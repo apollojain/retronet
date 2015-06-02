@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RetroNet</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>RetroNet</h1>
+    <!-- <button type="button" value="PLAY" 
+    onclick="
+		var myAudio = new Audio('rick_rolled.ogg');
+       
+       if (typeof myAudio.loop == 'boolean')
+		{
+		    myAudio.loop = true;
+		}
+		else
+		{
+		    myAudio.addEventListener('ended', function() {
+		        this.currentTime = 0;
+		        this.play();
+		    }, false);
+		}
+		myAudio.play();
+		}
+
+    "
+    >
+    Go in a time machine!!!</button> -->
+    <audio controls>
+	  <source src="rick_rolled.ogg" type="audio/ogg">
+	Your browser does not support the audio element.
+	</audio>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+var a = document.getElementsByTagName('body')[0].innerHTML;
+a = a.replace("facebook", "myspace");
+a = a.replace("Facebook", "Myspace");
+a = a.replace("google", "the encyclopedia");
+a = a.replace("Google", "The encyclopedia");
+a = a.replace("bad", "gnarly");
+a = a.replace("Bad", "Gnarly");
+a = a.replace("strange", "far out");
+a = a.replace("Strange", "Far out");
+a = a.replace("weird", "far out");
+a = a.replace("Weird", "Far out");
+a = a.replace("Cool", "Groovy");
+a = a.replace("cool", "groovy");
+a = a.replace("reddit", "4chan");
+a = a.replace("Reddit", "4chan");
+a = a.replace("dance", "get down");
+a = a.replace("Dance", "Get down");
+a = a.replace("stylish", "caposhi");
+a = a.replace("Stylish", "Caposhi");
+a = a.replace("weird", "funky");
+a = a.replace("Weird", "Funky");
+document.write("<html><body>" + a + "</body></html>")
